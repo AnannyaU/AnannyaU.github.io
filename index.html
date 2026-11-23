@@ -1,39 +1,377 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Anannya Upasana</title>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic webpage of Anannya Upasana, a theoretical computer scientist working on parameterized approximation, parameterized complexity, and graph algorithms." />
+  <title>Anannya Upasana | Theoretical Computer Science</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Anannya Upasana</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#talks">Talks</a>
+        <a href="#service">Service</a>
+        <a class="nav-cv" href="Anannya_Upasana_CV.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
 
-<h1>Anannya Upasana</h1>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Theoretical Computer Science</p>
+          <h1>Anannya Upasana</h1>
+          <p class="hero-role">Postdoctoral Researcher</p>
+          <p class="hero-affiliation">
+            Department of Computer Science and Mathematics, Lebanese American University<br />
+            Visiting Scientist, The Institute of Mathematical Sciences, Chennai
+          </p>
+          <p class="hero-summary">
+            My research focuses on parameterized approximation, parameterized complexity,
+            and graph algorithms, with particular interest in understanding how structural
+            restrictions can make otherwise difficult optimization problems tractable or
+            efficiently approximable.
+          </p>
 
-<p>
-Postdoctoral Researcher in Theoretical Computer Science
-</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">View publications</a>
+            <a class="button secondary" href="Anannya_Upasana_CV.pdf">Download CV</a>
+          </div>
 
-<h2>About Me</h2>
+          <div class="profile-links" aria-label="Academic profile links">
+            <a href="mailto:anannya.upasana23@gmail.com">Email</a>
+            <a href="https://dblp.org/pid/277/5264" target="_blank" rel="noopener">DBLP</a>
+            <a href="https://orcid.org/0009-0002-6283-0846" target="_blank" rel="noopener">ORCID</a>
+          </div>
+        </div>
 
-<p>
-I am a researcher interested in theoretical computer science, particularly parameterized complexity and graph algorithms.
-</p>
+        <aside class="hero-card">
+          <p class="card-label">Research interests</p>
+          <ul class="interest-list">
+            <li>Parameterized Approximation</li>
+            <li>Parameterized Complexity</li>
+            <li>Graph Algorithms</li>
+          </ul>
+          <div class="mini-rule"></div>
+          <p class="card-label">Ph.D.</p>
+          <p class="compact">
+            The Institute of Mathematical Sciences (HBNI), 2026<br />
+            <span class="muted">Supervisor: Prof. Saket Saurabh</span>
+          </p>
+        </aside>
+      </div>
+    </section>
 
-<h2>Research Interests</h2>
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Researcher in algorithms and complexity</h2>
+        </div>
+        <div class="prose">
+          <p>
+            I am a postdoctoral researcher in theoretical computer science. I am currently
+            affiliated with the Lebanese American University as a Postdoctoral Non-resident
+            Faculty member, hosted by Prof. Faisal N. Abu-Khzam, and with The Institute of
+            Mathematical Sciences, Chennai, as a Visiting Scientist.
+          </p>
+          <p>
+            I received my Ph.D. in Theoretical Computer Science from The Institute of
+            Mathematical Sciences in 2026. My thesis, supervised by Prof. Saket Saurabh,
+            was titled <em>Parameterized approximation algorithms for Partial Covering and
+            Satisfiability with budget constraints</em>.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<ul>
-    <li>Parameterized Complexity</li>
-    <li>Parameterized Approximation Algorithms</li>
-    <li>Graph Algorithms</li>
-</ul>
+    <section id="research" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Research</p>
+        <h2>What I work on</h2>
+        <div class="research-grid">
+          <article class="research-card">
+            <h3>Parameterized Approximation</h3>
+            <p>
+              Designing approximation algorithms whose running time can depend
+              non-polynomially on a parameter while remaining polynomial in the overall
+              input size, especially for covering and satisfiability problems.
+            </p>
+          </article>
+          <article class="research-card">
+            <h3>Parameterized Complexity</h3>
+            <p>
+              Understanding how structural and combinatorial parameters change the
+              computational complexity of hard problems, and identifying useful
+              tractability boundaries.
+            </p>
+          </article>
+          <article class="research-card">
+            <h3>Graph Algorithms</h3>
+            <p>
+              Studying graph problems through structural restrictions and parameterized
+              techniques, including domination, coloring, and related optimization problems.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<h2>Publications</h2>
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">Publications</p>
+            <h2>Conference and journal publications</h2>
+          </div>
+          <a class="text-link" href="https://dblp.org/pid/277/5264" target="_blank" rel="noopener">DBLP profile →</a>
+        </div>
 
-<p>Coming soon.</p>
+        <p class="note">
+          In theoretical computer science, authors are conventionally listed alphabetically
+          by surname, irrespective of relative contribution.
+        </p>
 
-<h2>Contact</h2>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <h3>Connected Dominating Set on Semi-Ladder-Free Graphs</h3>
+            <p class="authors">Sobyasachi Chatterjee, Sushmita Gupta, Saket Saurabh, Sanjay Seetharaman, Anannya Upasana</p>
+            <p class="venue"><strong>ISAAC 2026</strong> · 37th International Symposium on Algorithms and Computation</p>
+          </li>
 
-<p>Email: anannya <dot> upasana23 <at> gmail <dot> com</p>
+          <li class="pub-item">
+            <h3>Dominating Set with Quotas: Balancing Coverage and Constraints</h3>
+            <p class="authors">Sobyasachi Chatterjee, Sushmita Gupta, Saket Saurabh, Sanjay Seetharaman, Anannya Upasana</p>
+            <p class="venue"><strong>IWOCA 2026</strong> · 37th International Workshop on Combinatorial Algorithms</p>
+          </li>
 
+          <li class="pub-item">
+            <h3>Line Cover and Related Problems</h3>
+            <p class="authors">Matthias Bentert, Fedor Fomin, Petr Golovach, Souvik Saha, Sanjay Seetharaman, Anannya Upasana</p>
+            <p class="venue"><strong>STACS 2026</strong> · 43rd Symposium on Theoretical Aspects of Computer Science</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Parameterized Reunion with Achromatic Number</h3>
+            <p class="authors">Satyabrata Jana, Souvik Saha, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>ISAAC 2025</strong> · <strong>Information and Computation</strong>, Vol. 313, Article 105540 (2026)</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Nonpartisan Feedback Vertex Set</h3>
+            <p class="authors">Nidhi Purohit, Souvik Saha, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>CIAC 2025</strong> · <strong>Theoretical Computer Science</strong>, Vol. 1084, Article 116191 (2026)</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>More Efforts Towards Fixed-Parameter Approximability of Multiwinner Rules</h3>
+            <p class="authors">Sushmita Gupta, Pallavi Jain, Souvik Saha, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>IJCAI 2025</strong> · 34th International Joint Conference on Artificial Intelligence</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Parameterized Complexity of Generalizations of Edge Dominating Set</h3>
+            <p class="authors">Shubhada Aute, Fahad Panolan, Souvik Saha, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>SOFSEM 2025</strong> · <strong>Theory of Computing Systems</strong>, Vol. 70(3), Article 43 (2026)</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Satisfiability to Coverage in Presence of Fairness, Matroid, and Global Constraints</h3>
+            <p class="authors">Tanmay Inamdar, Pallavi Jain, Daniel Lokshtanov, Abhishek Sahu, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>ICALP 2024</strong> · 51st International Colloquium on Automata, Languages, and Programming</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Max-SAT with Cardinality Constraint Parameterized by the Number of Clauses</h3>
+            <p class="authors">Pallavi Jain, Lawqueen Kanesh, Fahad Panolan, Souvik Saha, Abhishek Sahu, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>LATIN 2024</strong> · <strong>Theoretical Computer Science</strong>, Vol. 1056, Article 115540 (2025)</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Parameterized Approximation Schemes for Biclique-free Max k-weight SAT and Max Coverage</h3>
+            <p class="authors">Pallavi Jain, Lawqueen Kanesh, Fahad Panolan, Souvik Saha, Abhishek Sahu, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue"><strong>SODA 2023</strong> · <strong>ACM Transactions on Algorithms</strong>, Vol. 22(1), Article 3 (2026)</p>
+            <p class="pub-extra">Google India Travel Grant · SODA 2023 Travel Award · Microsoft India Travel Grant (not availed)</p>
+          </li>
+
+          <li class="pub-item">
+            <h3>Even the Easiest(?) Graph Coloring Problem Is Not Easy in Streaming!</h3>
+            <p class="authors">Anup Bhattacharya, Arijit Bishnu, Gopinath Mishra, Anannya Upasana</p>
+            <p class="venue"><strong>ITCS 2021</strong> · 12th Innovations in Theoretical Computer Science Conference</p>
+          </li>
+        </ol>
+
+        <div class="subsection">
+          <h3 class="subsection-title">Unpublished manuscript</h3>
+          <div class="pub-item standalone">
+            <h3>Fixed Budget vs. Covering Target: The Partial Set Cover Boundary for Bounded VC-Dimension</h3>
+            <p class="authors">Madhumita Kundu, Souvik Saha, Saket Saurabh, Anannya Upasana</p>
+            <p class="venue">CoRR abs/2608.03801 (2026)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Teaching</p>
+        <h2>Teaching experience</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">Sept 21–25, 2026</div>
+            <div>
+              <h3>Instructor · Mini-course on Parameterized Approximation</h3>
+              <p class="muted">IISER Pune</p>
+              <p>
+                Taught a five-day course on parameterized approximation schemes for
+                partial covering problems under structural constraints.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Jan–Apr 2022</div>
+            <div>
+              <h3>Teaching Assistant · Parameterized Complexity</h3>
+              <p class="muted">The Institute of Mathematical Sciences, Chennai</p>
+              <p>
+                Assisted with assessment for the graduate course, including grading
+                examination papers and assignments.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="talks" class="section">
+      <div class="container">
+        <p class="section-kicker">Academic activities</p>
+        <h2>Selected invited talks</h2>
+
+        <div class="activity-grid">
+          <article class="activity-card">
+            <span class="year">2026</span>
+            <h3>Bangalore Theory Seminar</h3>
+            <p>IISc Bangalore · April 29, 2026</p>
+            <p class="muted">Talk based on work on multi-criteria lossy kernels for fair and matroid-constrained satisfiability.</p>
+          </article>
+
+          <article class="activity-card">
+            <span class="year">2025</span>
+            <h3>Modern Trends in Parameterized Algorithms</h3>
+            <p>IIT Madras · December 2025</p>
+            <p class="muted">Talk on Maximum Coverage on biclique-free instances.</p>
+          </article>
+
+          <article class="activity-card">
+            <span class="year">2024</span>
+            <h3>UiB Seminar</h3>
+            <p>University of Bergen · September 20, 2024</p>
+            <p class="muted">Talk based on work connecting satisfiability and coverage under fairness, matroid, and global constraints.</p>
+          </article>
+
+          <article class="activity-card">
+            <span class="year">2024</span>
+            <h3>International WiM Day</h3>
+            <p>IMSc Chennai · May 12, 2024</p>
+            <p class="muted">Invited talk based on work on satisfiability-to-coverage reductions.</p>
+          </article>
+
+          <article class="activity-card">
+            <span class="year">2024</span>
+            <h3>ACM ARCS</h3>
+            <p>NISER Bhubaneswar · February 9, 2024</p>
+            <p class="muted">Poster presentation of the SODA 2023 paper on parameterized approximation schemes.</p>
+          </article>
+
+          <article class="activity-card">
+            <span class="year">2023</span>
+            <h3>IMSc60 Celebration</h3>
+            <p>IMSc Chennai · January 4, 2023</p>
+            <p class="muted">Selected among students to represent the Theoretical Computer Science department.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container split-panels">
+        <div>
+          <p class="section-kicker">Recognition</p>
+          <h2>Awards & recognition</h2>
+          <ul class="clean-list">
+            <li>Selected invitation, ACM ARCS 2025</li>
+            <li>Selected invitation, ACM ARCS 2024</li>
+            <li>ACM ARCS 2024 Travel Grant</li>
+            <li>Google India Travel Grant for SODA 2023</li>
+            <li>SODA 2023 Travel Award</li>
+            <li>Microsoft India Travel Grant for SODA 2023 (not availed)</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="section-kicker">Visits</p>
+          <h2>Academic visits</h2>
+          <ul class="clean-list">
+            <li><strong>IISER Pune</strong> · March 2026; Sept–Oct 2026</li>
+            <li><strong>NISER Bhubaneswar</strong> · February 2026</li>
+            <li><strong>University of Bergen</strong> · Aug–Oct 2024</li>
+            <li><strong>IIT Hyderabad</strong> · Aug–Sept 2022</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="section">
+      <div class="container">
+        <p class="section-kicker">Professional service</p>
+        <h2>Community & reviewing</h2>
+        <div class="service-grid">
+          <div class="service-box">
+            <h3>Journal reviews</h3>
+            <p>Theoretical Computer Science · Discrete Applied Mathematics</p>
+          </div>
+          <div class="service-box">
+            <h3>Conference reviews</h3>
+            <p>STACS 2027 · ITCS 2027 · ESA 2025 · CALDAM 2025 · IWOCA 2024 · WALCOM 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker light">Contact</p>
+          <h2>Get in touch</h2>
+          <p>
+            For research discussions, seminars, collaborations, or academic opportunities,
+            feel free to contact me by email.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button light-button" href="mailto:anannya.upasana23@gmail.com">Email me</a>
+          <a class="button outline-light" href="Anannya_Upasana_CV.pdf">View CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>© 2026 Anannya Upasana</p>
+      <p>Built with plain HTML and CSS · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
 </body>
 </html>
