@@ -1,1 +1,1 @@
-Version 6: UiB and ISAAC slide decks replaced by PDF versions; all 'Talk slides' labels standardized to 'Slides'.
+Version 7: robust centered max-width layout; stylesheet renamed to site-v7.css to bypass cache; main name heading reduced slightly.
